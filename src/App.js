@@ -69,7 +69,7 @@ function App() {
           category: 'Calender or Model shoots',
           description: 'Professional portrait and fashion shoots for calendars and model portfolios.',
           images: [
-            { src: '_DSC0236.jpg', title: 'Portrait Shoot 1' },
+            { src: '_DSC0236.JPG', title: 'Portrait Shoot 1' },
             { src: '_DSC0308.jpg', title: 'Portrait Shoot 2' },
             { src: '_DSC1027.jpg', title: 'Model Look 1' },
             { src: '_DSC1132.jpg', title: 'Model Look 2' },
@@ -120,7 +120,7 @@ function App() {
           category: ' Baby PhotoShoot',
           description: 'Adorable and professional baby and family photography.',
           images: [
-            { src: '_DSC08882.jpg', title: 'Portrait 1' },
+            { src: 'DSC08882.jpg', title: 'Portrait 1' },
             { src: 'DSC08888.jpg', title: 'Portrait 2' },
             { src: 'DSC08890.jpg', title: 'Portrait 3' },
             { src: 'DSC08903.jpg', title: 'Portrait 4' },
