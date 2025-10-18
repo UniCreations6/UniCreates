@@ -120,7 +120,7 @@ function App() {
           category: ' Baby PhotoShoot',
           description: 'Adorable and professional baby and family photography.',
           images: [
-            { src: 'DSC08882.jpeg', title: 'Portrait 1' },
+            { src: '_DSC08882.jpg', title: 'Portrait 1' },
             { src: 'DSC08888.jpg', title: 'Portrait 2' },
             { src: 'DSC08890.jpg', title: 'Portrait 3' },
             { src: 'DSC08903.jpg', title: 'Portrait 4' },
