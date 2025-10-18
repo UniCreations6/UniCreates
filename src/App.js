@@ -28,7 +28,7 @@ function App() {
     { name: 'VISHAL PANDEY', logo: 'Vishal Pandey.png' },
     { name: 'ALEEN JARIYA', logo: 'Aleen Jariya.png' },
     { name: 'SPORTS COMPLEX', logo: 'Sports Complex.png' },
-    { name: 'IT GURUJI', logo: 'IT GURUJI.png' },
+    { name: 'IT GURUJI', logo: 'IT Guruji.png' },
     { name: 'JAIN DUDHGALAYA', logo: 'Jain Dudhgalaya.png' },
     { name: 'Ghar Story', logo: 'Gahr Story.png' }
   ];
@@ -115,17 +115,7 @@ function App() {
             { src: '_DSC8362.jpg', title: 'Brand Photo 4' },
           ]
         },
-        {
-          category: ' Drone Shoot',
-          description: 'Professional Drone shots for aerial views.',
-          videos: [
-            { description: 'Stunning view from above.', filename: 'DJI_0226.mp4' },
-            { description: 'Stunning view from above.', filename: 'DJI_0228.mp4' },
-            { description: 'Stunning view from above.', filename: 'DJI_0245.mp4' },
-            { description: 'Stunning view from above.', filename: 'DJI_0297.mp4' },
-            { description: 'Stunning view from above.', filename: 'DJI_0307.mp4' },
-          ]
-        },
+       
         {
           category: ' Baby PhotoShoot',
           description: 'Adorable and professional baby and family photography.',
