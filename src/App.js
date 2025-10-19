@@ -28,7 +28,7 @@ function App() {
     { name: 'VISHAL PANDEY', logo: 'Vishal Pandey.png' },
     { name: 'ALEEN JARIYA', logo: 'Aleen Jariya.png' },
     { name: 'SPORTS COMPLEX', logo: 'Sports Complex.png' },
-    { name: 'IT GURUJI', logo: 'IT_Guruji.png' },
+    
     { name: 'JAIN DUDHGALAYA', logo: 'Jain Dudhgalaya.png' },
     { name: 'Ghar Story', logo: 'Gahr Story.png' }
   ];
