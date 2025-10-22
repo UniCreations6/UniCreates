@@ -28,7 +28,7 @@ function App() {
     { name: 'VISHAL PANDEY', logo: 'Vishal Pandey.png' },
     { name: 'ALEEN JARIYA', logo: 'Aleen Jariya.png' },
     { name: 'SPORTS COMPLEX', logo: 'Sports Complex.png' },
-    { name: 'IT GURUJI', logo: 'IT_Guruji.png' },
+    { name: 'IT ', logo: 'IT.png' },
     { name: 'JAIN DUDHGALAYA', logo: 'Jain Dudhgalaya.png' },
     { name: 'Ghar Story', logo: 'Gahr Story.png' }
   ];
@@ -69,7 +69,7 @@ function App() {
           category: 'Calender or Model shoots',
           description: 'Professional portrait and fashion shoots for calendars and model portfolios.',
           images: [
-            { src: '_DSC0236.JPG', title: 'Portrait Shoot 1' },
+            { src: '_DSC0236.jpg', title: 'Portrait Shoot 1' },
             { src: '_DSC0308.jpg', title: 'Portrait Shoot 2' },
             { src: '_DSC1027.jpg', title: 'Model Look 1' },
             { src: '_DSC1132.jpg', title: 'Model Look 2' },
