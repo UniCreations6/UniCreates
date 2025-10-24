@@ -52,7 +52,6 @@ function App() {
       description: 'Engaging short-form content for social media platforms. Click to view our viral reels portfolio.',
       projects: ['Product Reveal', 'Viral Marketing/Engaging Reels', 'Behind the Scenes','Promotional Content'],
       bgPattern: '📱',
-      // The videos array is removed as requested.
       // ADD YOUR LINK HERE:
       externalLink: 'https://drive.google.com/drive/folders/1NLbblmfpUGzZMLOjO61tLXpQnttjxvul?usp=sharing'
     },
@@ -115,9 +114,23 @@ function App() {
             { src: '_DSC8362.jpg', title: 'Brand Photo 4' },
           ]
         },
-       
+         {
+          category: 'Drone Shoot',
+          description: 'Professional Drone shots .',
+          // MODIFIED: ADDED EXTERNAL LINK HERE
+          externalLink: 'https://drive.google.com/drive/folders/1uxos0tjMykRlvDSWvHNMpIK-LFoJc9vF', // **<-- REPLACE WITH YOUR ACTUAL LINK**
+          images: [
+            // THESE VIDEO ENTRIES ARE NOW UNREACHABLE AS THE BUTTON REDIRECTS, BUT KEPT FOR STRUCTURE
+            { filename: 'DJI_0208.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' }, 
+            { filename: 'DJI_0226.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
+            { filename: 'DJI_0228.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
+            { filename: 'DJI_0245.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
+            { filename: 'DJI_0297.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
+            { filename: 'DJI_0307.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
+          ]
+        },
         {
-          category: ' Baby PhotoShoot',
+          category: 'Baby PhotoShoot',
           description: 'Adorable and professional baby and family photography.',
           images: [
             { src: 'DSC08882.jpg', title: 'Portrait 1' },
@@ -455,7 +468,7 @@ function App() {
 
   const PhotoSectionPage = ({ section, onBack }) => {
     const initialCategory = (section.photos && section.photos.length > 0) 
-      ? section.photos[0] 
+      ? section.photos.find(cat => cat.category === 'Calender or Model shoots') || section.photos[0]
       : null;
 
     const [selectedCategory, setSelectedCategory] = useState(initialCategory);
@@ -470,7 +483,9 @@ function App() {
     }
     
     const renderContent = () => {
-      if (!selectedCategory) {
+      // MODIFIED: This check ensures that if the selected category is an external link (like Drone Shoot), 
+      // no internal content is rendered, and it defaults to the "Select a category" message.
+      if (!selectedCategory || selectedCategory.externalLink) {
         return <div className="text-center text-gray-500 mt-10">Select a category to view content.</div>;
       }
       
@@ -573,14 +588,29 @@ function App() {
               {section.photos.map((photoCategory, index) => (
                 <button
                   key={index}
-                  onClick={() => setSelectedCategory(photoCategory)}
+                  onClick={() => {
+                    // This click handler redirects immediately for external links
+                    if (photoCategory.externalLink) {
+                      window.open(photoCategory.externalLink, '_blank');
+                    } else {
+                      setSelectedCategory(photoCategory);
+                    }
+                  }}
                   className={`px-4 sm:px-6 py-2 sm:py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 ${
-                    selectedCategory && selectedCategory.category === photoCategory.category
-                      ? 'bg-gradient-to-r from-green-500 to-blue-500 text-white shadow-lg'
-                      : 'bg-white text-gray-700 border-2 border-gray-200 hover:border-green-300'
+                    // Check if it is the currently selected category AND not an external link
+                    (selectedCategory && selectedCategory.category === photoCategory.category && !photoCategory.externalLink)
+                      ? 'bg-gradient-to-r from-green-500 to-blue-500 text-white shadow-lg' // SELECTED STYLE
+                      // Otherwise, use the default unselected style for all others, including external links (Drone Shoot)
+                      : 'bg-white text-gray-700 border-2 border-gray-200 hover:border-green-300' // DEFAULT STYLE
                   }`}
                 >
                   {photoCategory.category}
+                  {photoCategory.externalLink && (
+                    <span className='ml-2 text-xs font-normal'>
+                      {/* Added small external link icon for visual cue */}
+                      <svg className="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </span>
+                  )}
                 </button>
               ))}
             </div>
