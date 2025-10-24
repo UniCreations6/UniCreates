@@ -119,15 +119,7 @@ function App() {
           description: 'Professional Drone shots .',
           // MODIFIED: ADDED EXTERNAL LINK HERE
           externalLink: 'https://drive.google.com/drive/folders/1uxos0tjMykRlvDSWvHNMpIK-LFoJc9vF', // **<-- REPLACE WITH YOUR ACTUAL LINK**
-          images: [
-            // THESE VIDEO ENTRIES ARE NOW UNREACHABLE AS THE BUTTON REDIRECTS, BUT KEPT FOR STRUCTURE
-            { filename: 'DJI_0208.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' }, 
-            { filename: 'DJI_0226.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
-            { filename: 'DJI_0228.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
-            { filename: 'DJI_0245.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
-            { filename: 'DJI_0297.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
-            { filename: 'DJI_0307.mp4', title: 'Drone Video 1', src: 'placeholder-drone.jpg' },
-          ]
+          
         },
         {
           category: 'Baby PhotoShoot',
