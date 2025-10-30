@@ -433,7 +433,7 @@ function App() {
                   className="bg-white p-5 sm:p-6 flex items-center justify-center rounded-3xl transition-all duration-300 border border-gray-100 hover:border-gray-300 transform hover:scale-105 hover:shadow-lg group cursor-pointer aspect-square"
                 >
                   <img 
-                    src={`/${brand.logo}`} 
+                    src={`${brand.logo}`} 
                     alt={`${brand.name} Logo`} 
                     className="max-w-full max-h-full object-contain transition-transform duration-500"
                     onError={(e) => {
@@ -491,7 +491,7 @@ function App() {
                 className="group relative aspect-square overflow-hidden rounded-2xl cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-gray-200"
               >
                 <img
-                  src={`/${image.src}`}
+                  src={`${image.src}`}
                   alt={image.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   onError={(e) => {
@@ -527,7 +527,7 @@ function App() {
                         preload="metadata"
                         playsInline
                     >
-                        <source src={`/${video.filename}`} type="video/mp4" />
+                        <source src={`${video.filename}`} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -647,7 +647,7 @@ function App() {
                 <div className="flex-1 flex items-center justify-center p-4" onClick={(e) => e.stopPropagation()}>
                   <div className="max-w-5xl max-h-full relative">
                     <img
-                      src={`/${selectedImage.src}`}
+                      src={`${selectedImage.src}`}
                       alt={selectedImage.title}
                       className="w-full h-full object-contain max-h-[80vh]"
                       onError={(e) => {
@@ -771,7 +771,7 @@ function App() {
                       playsInline
                       onContextMenu={(e) => e.preventDefault()}
                     >
-                      <source src={`/${video.filename}`} type="video/mp4" />
+                      <source src={`${video.filename}`} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                     
