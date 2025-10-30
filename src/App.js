@@ -68,7 +68,7 @@ function App() {
           category: 'Calender or Model shoots',
           description: 'Professional portrait and fashion shoots for calendars and model portfolios.',
           images: [
-            { src: '_DSC0236.jpg', title: 'Portrait Shoot 1' },
+            { src: 'aleen.jpg', title: 'Portrait Shoot 1' },
             { src: '_DSC0308.jpg', title: 'Portrait Shoot 2' },
             { src: '_DSC1027.jpg', title: 'Model Look 1' },
             { src: '_DSC1132.jpg', title: 'Model Look 2' },
@@ -162,7 +162,7 @@ function App() {
       photos: [
         {
           images: [
-            { src: '1.jpeg', title: '1' },
+            { src: 'one.jpeg', title: '1' },
             { src: '2.jpeg', title: ' 2' },
             { src: '3.jpeg', title: ' 3' },
             { src: '4.jpeg', title: '4' },
