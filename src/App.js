@@ -16,21 +16,21 @@ function App() {
   };
 
   const brandLogos = [
-    { name: 'WHITE TIGER FILMS', logo: 'white-tiger-films-logo.png' },
-    { name: 'MTV', logo: 'MTV.png' },
-    { name: 'ZOMATO', logo: 'ZOMATO.png' },
-    { name: 'BLINKIT', logo: 'Blinkit.png' },
-    { name: 'GUJJUBOY CLOTHING', logo: 'Gujjuboy Clothing.png' },
-    { name: 'UNI SEOUL', logo: 'Uni Seoul.png' },
-    { name: 'NEHA JEWELLERS', logo: 'Neha Jewellers.png' },
-    { name: 'BMH GYM', logo: 'bmh.png' },
-    { name: 'NAMAN ARORA', logo: 'Naman Arora.png' },
-    { name: 'VISHAL PANDEY', logo: 'Vishal Pandey.png' },
-    { name: 'ALEEN JARIYA', logo: 'Aleen Jariya.png' },
-    { name: 'SPORTS COMPLEX', logo: 'Sports Complex.png' },
-    { name: 'IT ', logo: 'IT.png' },
-    { name: 'JAIN DUDHGALAYA', logo: 'Jain Dudhgalaya.png' },
-    { name: 'Ghar Story', logo: 'Gahr Story.png' }
+    { name: 'WHITE TIGER FILMS', logo: '/white-tiger-films-logo.png' },
+    { name: 'MTV', logo: '/MTV.png' },
+    { name: 'ZOMATO', logo: '/ZOMATO.png' },
+    { name: 'BLINKIT', logo: '/Blinkit.png' },
+    { name: 'GUJJUBOY CLOTHING', logo: '/Gujjuboy Clothing.png' },
+    { name: 'UNI SEOUL', logo: '/Uni Seoul.png' },
+    { name: 'NEHA JEWELLERS', logo: '/Neha Jewellers.png' },
+    { name: 'BMH GYM', logo: '/bmh.png' },
+    { name: 'NAMAN ARORA', logo: '/Naman Arora.png' },
+    { name: 'VISHAL PANDEY', logo: '/Vishal Pandey.png' },
+    { name: 'ALEEN JARIYA', logo: '/Aleen Jariya.png' },
+    { name: 'SPORTS COMPLEX', logo: '/Sports Complex.png' },
+    { name: 'IT', logo: '/IT.png' },
+    { name: 'JAIN DUDHGALAYA', logo: '/Jain Dudhgalaya.png' },
+    { name: 'GHAR STORY', logo: '/Gahr Story.png' }
   ];
 
   const workSections = [
@@ -68,50 +68,50 @@ function App() {
           category: 'Calender or Model shoots',
           description: 'Professional portrait and fashion shoots for calendars and model portfolios.',
           images: [
-            { src: 'aleen.JPG', title: 'Portrait Shoot 1' },
-            { src: '_DSC0308.jpg', title: 'Portrait Shoot 2' },
-            { src: '_DSC1027.jpg', title: 'Model Look 1' },
-            { src: '_DSC1132.jpg', title: 'Model Look 2' },
-            { src: '_DSC1187.jpg', title: 'Model Look 3' },
-            { src: '_DSC1342.jpg', title: 'Fashion Shot 1' },
-            { src: '_DSC1377.jpg', title: 'Fashion Shot 2' },
-            { src: '_DSC1400.jpg', title: 'Fashion Shot 3' },
-            { src: '_DSC1541.jpg', title: 'Studio Portrait 1' },
-            { src: '_DSC2050.jpg', title: 'Studio Portrait 2' },
-            { src: '_DSC2152.jpg', title: 'Studio Portrait 3' },
-            { src: '_DSC3013.jpg', title: 'Outdoor Look 1' },
-            { src: '_DSC3032.jpg', title: 'Outdoor Look 2' },
-            { src: '_DSC3057.jpg', title: 'Outdoor Look 3' },
-            { src: '_DSC3155.jpg', title: 'Outdoor Look 4' },
-            { src: '_DSC3223.jpg', title: 'Outdoor Look 5' },
-            { src: '_DSC3370.jpg', title: 'Outdoor Look 6' },
+            { src: '/aleen.JPG', title: 'Portrait Shoot 1' },
+            { src: '/_DSC0308.JPG', title: 'Portrait Shoot 2' },
+            { src: '/_DSC1027.JPG', title: 'Model Look 1' },
+            { src: '/_DSC1132.JPG', title: 'Model Look 2' },
+            { src: '/_DSC1187.jpg', title: 'Model Look 3' },
+            { src: '/_DSC1342.jpg', title: 'Fashion Shot 1' },
+            { src: '/_DSC1377.jpg', title: 'Fashion Shot 2' },
+            { src: '/_DSC1400.jpg', title: 'Fashion Shot 3' },
+            { src: '/_DSC1541.jpg', title: 'Studio Portrait 1' },
+            { src: '/_DSC2050.jpg', title: 'Studio Portrait 2' },
+            { src: '/_DSC2152.jpg', title: 'Studio Portrait 3' },
+            { src: '/_DSC3013.JPG', title: 'Outdoor Look 1' },
+            { src: '/_DSC3032.JPG', title: 'Outdoor Look 2' },
+            { src: '/_DSC3057.JPG', title: 'Outdoor Look 3' },
+            { src: '/_DSC3155.JPG', title: 'Outdoor Look 4' },
+            { src: '/_DSC3223.JPG', title: 'Outdoor Look 5' },
+            { src: '/_DSC3370.JPG', title: 'Outdoor Look 6' },
           ]
         },
         {
           category: 'Event Coverage',
           description: 'Capturing memorable moments at corporate and social events.',
           images: [
-            { src: '_DSC0176.jpg', title: 'Event Photo 1' },
-            { src: '_DSC1629.jpg', title: 'Event Photo 2' },
-            { src: '_DSC1700.jpg', title: 'Event Photo 3' },
-            { src: '_DSC9751.jpg', title: 'Event Photo 4' },
-            { src: '_DSC9775.jpg', title: 'Event Photo 5' },
-            { src: '_DSC9830.jpg', title: 'Event Photo 6' },
-            { src: 'IMG_7402.jpg', title: 'Event Photo 7' },
-            { src: 'IMG_7527.jpg', title: 'Event Photo 8' },
-            { src: 'IMG_7771.jpg', title: 'Event Photo 9' },
-            { src: 'IMG_7861.jpg', title: 'Event Photo 10' },
-            { src: 'IMG_8150.jpg', title: 'Event Photo 11' }
+            { src: '/_DSC0176.jpg', title: 'Event Photo 1' },
+            { src: '/_DSC1629.JPG', title: 'Event Photo 2' },
+            { src: '/_DSC1700.JPG', title: 'Event Photo 3' },
+            { src: '/_DSC9751.jpg', title: 'Event Photo 4' },
+            { src: '/_DSC9775.jpg', title: 'Event Photo 5' },
+            { src: '/_DSC9830.jpg', title: 'Event Photo 6' },
+            { src: '/IMG_7402.JPG', title: 'Event Photo 7' },
+            { src: '/IMG_7527.JPG', title: 'Event Photo 8' },
+            { src: '/IMG_7771.JPG', title: 'Event Photo 9' },
+            { src: '/IMG_7861.JPG', title: 'Event Photo 10' },
+            { src: '/IMG_8150.JPG', title: 'Event Photo 11' }
           ]
         },
         {
           category: 'Product Photoshoot',
           description: 'Creative brand photography that tells your story.',
           images: [
-            { src: '_DSC7941.jpg', title: 'Brand Photo 1' },
-            { src: '_DSC8067.jpg', title: 'Brand Photo 2' },
-            { src: '_DSC8222.jpg', title: 'Brand Photo 3' },
-            { src: '_DSC8362.jpg', title: 'Brand Photo 4' },
+            { src: '/_DSC7941.JPG', title: 'Brand Photo 1' },
+            { src: '/_DSC8067.JPG', title: 'Brand Photo 2' },
+            { src: '/_DSC8222.JPG', title: 'Brand Photo 3' },
+            { src: '/_DSC8362.JPG', title: 'Brand Photo 4' },
           ]
         },
          {
@@ -125,28 +125,28 @@ function App() {
           category: 'Baby PhotoShoot',
           description: 'Adorable and professional baby and family photography.',
           images: [
-            { src: 'DSC08882.jpg', title: 'Portrait 1' },
-            { src: 'DSC08888.jpg', title: 'Portrait 2' },
-            { src: 'DSC08890.jpg', title: 'Portrait 3' },
-            { src: 'DSC08903.jpg', title: 'Portrait 4' },
-            { src: 'DSC08904.jpg', title: 'Portrait 5' },
-            { src: 'DSC08907.jpg', title: 'Portrait 6' },
-            { src: 'DSC08907.jpg', title: 'Portrait 7' },
-            { src: 'IMG_5352.jpg', title: 'Portrait 8' },
-            { src: 'IMG_5382.jpg', title: 'Portrait 9' },
-            { src: 'IMG_5386.jpg', title: 'Portrait 10' },
-            { src: 'IMG_5388.jpg', title: 'Portrait 11' },
-            { src: 'IMG_5400.jpg', title: 'Portrait 12' },
-            { src: 'IMG_5433.jpg', title: 'Portrait 13' },
-            { src: 'IMG_5445.jpg', title: 'Portrait 14' },
-            { src: 'IMG_5450.jpg', title: 'Portrait 15' },
-            { src: 'IMG_5458.jpg', title: 'Portrait 16' },
-            { src: 'IMG_8047.jpg', title: 'Portrait 17' },
-            { src: 'IMG_8048.jpg', title: 'Portrait 18' },
-            { src: 'IMG_8050.jpg', title: 'Portrait 19' },
-            { src: 'IMG_8056.jpg', title: 'Portrait 20' },
-            { src: 'IMG_8157.jpg', title: 'Portrait 21' },
-            { src: 'IMG_8163.jpg', title: 'Portrait 22' }
+            { src: '/DSC08882.JPG', title: 'Portrait 1' },
+            { src: '/DSC08888.JPG', title: 'Portrait 2' },
+            { src: '/DSC08890.JPG', title: 'Portrait 3' },
+            { src: '/DSC08903.JPG', title: 'Portrait 4' },
+            { src: '/DSC08904.JPG', title: 'Portrait 5' },
+            { src: '/DSC08907.JPG', title: 'Portrait 6' },
+            { src: '/DSC08907.JPG', title: 'Portrait 7' },
+            { src: '/IMG_5352.JPG', title: 'Portrait 8' },
+            { src: '/IMG_5382.JPG', title: 'Portrait 9' },
+            { src: '/IMG_5386.JPG', title: 'Portrait 10' },
+            { src: '/IMG_5388.JPG', title: 'Portrait 11' },
+            { src: '/IMG_5400.JPG', title: 'Portrait 12' },
+            { src: '/IMG_5433.JPG', title: 'Portrait 13' },
+            { src: '/IMG_5445.JPG', title: 'Portrait 14' },
+            { src: '/IMG_5450.JPG', title: 'Portrait 15' },
+            { src: '/IMG_5458.JPG', title: 'Portrait 16' },
+            { src: '/IMG_8047.JPG', title: 'Portrait 17' },
+            { src: '/IMG_8048.JPG', title: 'Portrait 18' },
+            { src: '/IMG_8050.JPG', title: 'Portrait 19' },
+            { src: '/IMG_8056.JPG', title: 'Portrait 20' },
+            { src: '/IMG_8157.JPG', title: 'Portrait 21' },
+            { src: '/IMG_8163.JPG', title: 'Portrait 22' }
           ]
         }
       ]
@@ -161,14 +161,16 @@ function App() {
       bgPattern: '📈',
       photos: [
         {
+          category: 'Social Media Results',
+          description: 'Our proven track record of successful social media campaigns and growth strategies.',
           images: [
-            { src: 'one.jpeg', title: '1' },
-            { src: '2.jpeg', title: ' 2' },
-            { src: '3.jpeg', title: ' 3' },
-            { src: '4.jpeg', title: '4' },
-            { src: '5.jpeg', title: '5' },
-            { src: '6.jpeg', title: '6' },
-            { src: '7.jpeg', title: '7' },
+            { src: '/one.jpeg', title: 'Growth Analytics 1' },
+            { src: '/2.jpeg', title: 'Campaign Results 2' },
+            { src: '/3.jpeg', title: 'Engagement Metrics 3' },
+            { src: '/4.jpeg', title: 'Audience Growth 4' },
+            { src: '/5.jpeg', title: 'Content Performance 5' },
+            { src: '/6.jpeg', title: 'Brand Reach 6' },
+            { src: '/7.jpeg', title: 'Conversion Stats 7' },
           ]
         }
       ]
@@ -183,7 +185,16 @@ function App() {
               onClick={() => setCurrentPage('home')} 
               className="cursor-pointer transform transition-all duration-300 hover:scale-110"
             >
-              <img src="Logo_1_Rev_PNG - Copy.png" alt="UniCreations Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
+              <img 
+                src={process.env.PUBLIC_URL + "/Logo_1_Rev_PNG - Copy.png"} 
+                alt="UniCreations Logo" 
+                className="w-12 h-12 sm:w-16 sm:h-16"
+                onError={(e) => {
+                  console.error('Failed to load navigation logo');
+                  e.target.onerror = null;
+                  e.target.src = `https://via.placeholder.com/64x64/22c55e/ffffff?text=UC`;
+                }}
+              />
             </div>
           </div>
           
@@ -271,9 +282,14 @@ function App() {
               <div className="relative z-10">
                 <div className="flex items-center justify-center mb-6">
                   <img 
-                    src="Logo_1_Rev_PNG.png" 
+                    src={process.env.PUBLIC_URL + "/Logo_1_Rev_PNG.png"} 
                     alt="UniCreations Logo" 
                     className="max-w-[80%] w-auto h-auto sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl max-h-[16rem] transition-all duration-500 ease-in-out transform hover:scale-105"
+                    onError={(e) => {
+                      console.error('Failed to load hero section logo');
+                      e.target.onerror = null;
+                      e.target.src = `https://via.placeholder.com/400x100/22c55e/ffffff?text=UniCreations`;
+                    }}
                   />
                 </div>
                 
@@ -433,10 +449,13 @@ function App() {
                   className="bg-white p-5 sm:p-6 flex items-center justify-center rounded-3xl transition-all duration-300 border border-gray-100 hover:border-gray-300 transform hover:scale-105 hover:shadow-lg group cursor-pointer aspect-square"
                 >
                   <img 
-                    src={`${brand.logo}`} 
+                    src={process.env.PUBLIC_URL + brand.logo} 
                     alt={`${brand.name} Logo`} 
+                    loading="lazy"
                     className="max-w-full max-h-full object-contain transition-transform duration-500"
+                    style={{ backgroundColor: '#ffffff' }}
                     onError={(e) => {
+                        console.error(`Failed to load logo for ${brand.name}`);
                         e.target.onerror = null; 
                         e.target.style.display = 'none';
                         const parent = e.target.parentElement;
@@ -491,13 +510,16 @@ function App() {
                 className="group relative aspect-square overflow-hidden rounded-2xl cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-gray-200"
               >
                 <img
-                  src={`${image.src}`}
+                  src={process.env.PUBLIC_URL + image.src}
                   alt={image.title}
+                  loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   onError={(e) => {
+                    console.error('Image failed to load:', image.src);
                     e.target.onerror = null;
                     e.target.src = `https://via.placeholder.com/400x400/22c55e/ffffff?text=${encodeURIComponent(image.title)}`;
                   }}
+                  style={{ backgroundColor: '#f3f4f6' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-0 left-0 right-0 p-4">
@@ -647,12 +669,15 @@ function App() {
                 <div className="flex-1 flex items-center justify-center p-4" onClick={(e) => e.stopPropagation()}>
                   <div className="max-w-5xl max-h-full relative">
                     <img
-                      src={`${selectedImage.src}`}
+                      src={process.env.PUBLIC_URL + selectedImage.src}
                       alt={selectedImage.title}
+                      loading="lazy"
                       className="w-full h-full object-contain max-h-[80vh]"
                       onError={(e) => {
+                        console.error('Full size image failed to load:', selectedImage.src);
                         e.target.src = 'https://via.placeholder.com/800x800/e5e7eb/9ca3af?text=Photo+Not+Found';
                       }}
+                      style={{ backgroundColor: '#1a1a1a' }}
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                       <h3 className="text-white font-bold text-lg sm:text-xl">{selectedImage.title}</h3>
