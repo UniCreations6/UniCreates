@@ -517,7 +517,30 @@ function App() {
                   onError={(e) => {
                     console.error('Image failed to load:', image.src);
                     e.target.onerror = null;
-                    e.target.src = `https://via.placeholder.com/400x400/22c55e/ffffff?text=${encodeURIComponent(image.title)}`;
+                    e.target.style.display = 'none';
+                    const parent = e.target.parentElement;
+                    
+                    // Create text fallback
+                    let textFallback = parent.querySelector('.image-text-fallback');
+                    if (!textFallback) {
+                      textFallback = document.createElement('div');
+                      textFallback.className = 'image-text-fallback absolute inset-0 flex items-center justify-center text-center p-4 bg-gradient-to-br from-green-100 to-blue-100';
+                      const textContainer = document.createElement('div');
+                      textContainer.className = 'space-y-2';
+                      
+                      const textSpan = document.createElement('span');
+                      textSpan.className = 'text-sm font-medium text-gray-600 block';
+                      textSpan.textContent = image.title;
+                      
+                      const categorySpan = document.createElement('span');
+                      categorySpan.className = 'text-xs text-gray-500 block';
+                      categorySpan.textContent = selectedCategory.category;
+                      
+                      textContainer.appendChild(textSpan);
+                      textContainer.appendChild(categorySpan);
+                      textFallback.appendChild(textContainer);
+                      parent.appendChild(textFallback);
+                    }
                   }}
                   style={{ backgroundColor: '#f3f4f6' }}
                 />
@@ -675,7 +698,31 @@ function App() {
                       className="w-full h-full object-contain max-h-[80vh]"
                       onError={(e) => {
                         console.error('Full size image failed to load:', selectedImage.src);
-                        e.target.src = 'https://via.placeholder.com/800x800/e5e7eb/9ca3af?text=Photo+Not+Found';
+                        e.target.onerror = null;
+                        e.target.style.display = 'none';
+                        const container = e.target.parentElement;
+                        
+                        // Create text fallback
+                        let textFallback = container.querySelector('.fullscreen-fallback');
+                        if (!textFallback) {
+                          textFallback = document.createElement('div');
+                          textFallback.className = 'fullscreen-fallback w-full h-full min-h-[50vh] flex items-center justify-center bg-gradient-to-br from-green-100/20 to-blue-100/20 rounded-lg border border-white/10';
+                          const textContainer = document.createElement('div');
+                          textContainer.className = 'text-center space-y-4 p-8';
+                          
+                          const title = document.createElement('h3');
+                          title.className = 'text-2xl font-bold text-white';
+                          title.textContent = selectedImage.title;
+                          
+                          const category = document.createElement('p');
+                          category.className = 'text-lg text-white/80';
+                          category.textContent = selectedCategory.category;
+                          
+                          textContainer.appendChild(title);
+                          textContainer.appendChild(category);
+                          textFallback.appendChild(textContainer);
+                          container.appendChild(textFallback);
+                        }
                       }}
                       style={{ backgroundColor: '#1a1a1a' }}
                     />
