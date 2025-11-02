@@ -70,7 +70,7 @@ function App() {
           images: [
             { src: '/aleen.jpeg', title: 'Portrait Shoot 1' },
             { src: '/model.jpeg', title: 'Portrait Shoot 2' },
-            { src: '/_DSC1027.jpg', title: 'Model Look 1' },
+            { src: '/model1.jpg', title: 'Model Look 1' },
             { src: '/_DSC1132.jpg', title: 'Model Look 2' },
             { src: '/_DSC1187.jpg', title: 'Model Look 3' },
             { src: '/_DSC1342.jpg', title: 'Fashion Shot 1' },
