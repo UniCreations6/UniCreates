@@ -69,7 +69,7 @@ function App() {
           description: 'Professional portrait and fashion shoots for calendars and model portfolios.',
           images: [
             { src: '/aleen.jpeg', title: 'Portrait Shoot 1' },
-            { src: '/_DSC0308.jpg', title: 'Portrait Shoot 2' },
+            { src: '/_DSC0308.jpeg', title: 'Portrait Shoot 2' },
             { src: '/_DSC1027.jpg', title: 'Model Look 1' },
             { src: '/_DSC1132.jpg', title: 'Model Look 2' },
             { src: '/_DSC1187.jpg', title: 'Model Look 3' },
