@@ -659,32 +659,23 @@ function App() {
 
             {renderContent()}
 
-            {selectedImage && selectedCategory && !selectedCategory.videos && (
+             {selectedImage && selectedCategory && !selectedCategory.videos && (
               <div
                 className="fixed inset-0 bg-black/90 z-50 flex flex-col"
                 onClick={() => setSelectedImage(null)}
               >
-                <div className="flex items-center justify-between p-4 bg-black/50">
+                <div className="flex items-start p-6 sm:p-8 pt-16 sm:pt-20">
                   <button
-                    className="flex items-center text-white font-bold transition-colors px-4 py-2 rounded-xl bg-white/20 hover:bg-white/30"
+                    className="flex items-center text-white font-bold transition-all duration-300 px-4 sm:px-5 py-2 sm:py-3 rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-300 hover:to-blue-400 shadow-[0_0_25px_rgba(34,197,94,0.6)] hover:shadow-[0_0_35px_rgba(34,197,94,0.9)] transform hover:scale-110 border-2 border-white/60 hover:border-white ring-2 ring-white/30"
                     onClick={(e) => {
                       e.stopPropagation();
                       setSelectedImage(null);
                     }}
                   >
-                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path>
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5 mr-2 drop-shadow-[0_0_6px_rgba(255,255,255,0.8)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7"></path>
                     </svg>
-                    <span>Back to Gallery</span> 
-                  </button>
-                  <button
-                    className="text-white hover:text-gray-300 transition-colors p-2 rounded-lg hover:bg-white/10"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setSelectedImage(null);
-                    }}
-                  >
-                    <X className="w-8 h-8" />
+                    <span className="text-sm sm:text-base drop-shadow-[0_0_6px_rgba(255,255,255,0.8)] tracking-wide">BACK</span> 
                   </button>
                 </div>
 
