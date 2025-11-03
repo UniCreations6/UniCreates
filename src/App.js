@@ -98,11 +98,11 @@ function App() {
             { src: '/event5.jpeg', title: 'Event Photo 5' },
             { src: '/event6.jpeg', title: 'Event Photo 6' },
             { src: '/event7.jpeg', title: 'Event Photo 7' },
-            { src: '/event8.jpeg', title: 'Event Photo 8' },
-            { src: '/event9.jpeg', title: 'Event Photo 9' },
-            { src: '/event10.jpeg', title: 'Event Photo 10' },
-            { src: '/event11.jpeg', title: 'Event Photo 11' },
-            { src: '/event12.jpeg', title: 'Event Photo 12' }
+            
+            { src: '/event9.jpeg', title: 'Event Photo 8' },
+            { src: '/event10.jpeg', title: 'Event Photo 9' },
+            { src: '/event11.jpeg', title: 'Event Photo 10' },
+            { src: '/event12.jpeg', title: 'Event Photo 11' }
           ]
         },
         {
