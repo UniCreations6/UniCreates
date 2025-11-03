@@ -101,7 +101,8 @@ function App() {
             { src: '/event8.jpeg', title: 'Event Photo 8' },
             { src: '/event9.jpeg', title: 'Event Photo 9' },
             { src: '/event10.jpeg', title: 'Event Photo 10' },
-            { src: '/event11.jpeg', title: 'Event Photo 11' }
+            { src: '/event11.jpeg', title: 'Event Photo 11' },
+            { src: '/event12.jpeg', title: 'Event Photo 12' }
           ]
         },
         {
@@ -111,7 +112,7 @@ function App() {
             { src: '/product1.jpeg', title: 'Brand Photo 1' },
             { src: '/product2.jpeg', title: 'Brand Photo 2' },
             { src: '/product3.jpeg', title: 'Brand Photo 3' },
-            { src: '/product4.jepg', title: 'Brand Photo 4' },
+            { src: '/product4.jpeg', title: 'Brand Photo 4' },
           ]
         },
          {
@@ -125,28 +126,26 @@ function App() {
           category: 'Baby PhotoShoot',
           description: 'Adorable and professional baby and family photography.',
           images: [
-            { src: '/DSC08882.jpg', title: 'Portrait 1' },
-            { src: '/DSC08888.jpg', title: 'Portrait 2' },
-            { src: '/DSC08890.jpg', title: 'Portrait 3' },
-            { src: '/DSC08903.jpg', title: 'Portrait 4' },
-            { src: '/DSC08904.jpg', title: 'Portrait 5' },
-            { src: '/DSC08907.jpg', title: 'Portrait 6' },
-            { src: '/DSC08907.jpg', title: 'Portrait 7' },
-            { src: '/IMG_5352.jpg', title: 'Portrait 8' },
-            { src: '/IMG_5382.jpg', title: 'Portrait 9' },
-            { src: '/IMG_5386.jpg', title: 'Portrait 10' },
-            { src: '/IMG_5388.jpg', title: 'Portrait 11' },
-            { src: '/IMG_5400.jpg', title: 'Portrait 12' },
-            { src: '/IMG_5433.jpg', title: 'Portrait 13' },
-            { src: '/IMG_5445.jpg', title: 'Portrait 14' },
-            { src: '/IMG_5450.jpg', title: 'Portrait 15' },
-            { src: '/IMG_5458.jpg', title: 'Portrait 16' },
-            { src: '/IMG_8047.jpg', title: 'Portrait 17' },
-            { src: '/IMG_8048.jpg', title: 'Portrait 18' },
-            { src: '/IMG_8050.jpg', title: 'Portrait 19' },
-            { src: '/IMG_8056.jpg', title: 'Portrait 20' },
-            { src: '/IMG_8157.jpg', title: 'Portrait 21' },
-            { src: '/IMG_8163.jpg', title: 'Portrait 22' }
+            { src: '/b1.jpeg', title: 'Portrait 1' },
+            { src: '/b2.jpeg', title: 'Portrait 2' },
+            { src: '/b3.jpeg', title: 'Portrait 3' },
+            { src: '/b4.jpeg', title: 'Portrait 4' },
+            { src: '/b5.jpeg', title: 'Portrait 5' },
+            { src: '/b6.jpeg', title: 'Portrait 6' },
+            { src: '/b7.jpeg', title: 'Portrait 7' },
+            { src: '/b8.jpeg', title: 'Portrait 8' },
+            { src: '/b9.jpeg', title: 'Portrait 9' },
+            { src: '/b10.jpeg', title: 'Portrait 10' },
+            { src: '/b11.jpeg', title: 'Portrait 11' },
+            { src: '/b12.jpeg', title: 'Portrait 12' },
+            { src: '/b13.jpeg', title: 'Portrait 13' },
+            { src: '/b14.jpeg', title: 'Portrait 14' },
+            { src: '/b15.jpeg', title: 'Portrait 15' },
+            { src: '/b16.jpeg', title: 'Portrait 16' },
+            { src: '/b17.jpeg', title: 'Portrait 17' },
+            { src: '/b18.jpeg', title: 'Portrait 18' },
+            { src: '/b19.jpeg', title: 'Portrait 19' }
+            
           ]
         }
       ]
