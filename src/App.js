@@ -439,7 +439,7 @@ function App() {
           <div className="bg-gradient-to-r from-white via-gray-50 to-white rounded-3xl p-12 text-center border border-gray-200 shadow-xl relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-green-100/20 to-blue-100/20"></div>
             <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-8 sm:mb-12 relative z-10">
-              Trusted by Industry Leaders
+              Worked With
             </h2>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-6 sm:gap-8 relative z-10">
               {brandLogos.map((brand, index) => (
