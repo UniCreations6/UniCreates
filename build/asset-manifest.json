@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/UniCreates/static/css/main.93a0497a.css",
-    "main.js": "/UniCreates/static/js/main.facfaade.js",
-    "static/js/453.a5b25d5b.chunk.js": "/UniCreates/static/js/453.a5b25d5b.chunk.js",
-    "index.html": "/UniCreates/index.html",
-    "main.93a0497a.css.map": "/UniCreates/static/css/main.93a0497a.css.map",
-    "main.facfaade.js.map": "/UniCreates/static/js/main.facfaade.js.map",
-    "453.a5b25d5b.chunk.js.map": "/UniCreates/static/js/453.a5b25d5b.chunk.js.map"
+    "main.css": "/static/css/main.93a0497a.css",
+    "main.js": "/static/js/main.3094a09c.js",
+    "static/js/453.a5b25d5b.chunk.js": "/static/js/453.a5b25d5b.chunk.js",
+    "index.html": "/index.html",
+    "main.93a0497a.css.map": "/static/css/main.93a0497a.css.map",
+    "main.3094a09c.js.map": "/static/js/main.3094a09c.js.map",
+    "453.a5b25d5b.chunk.js.map": "/static/js/453.a5b25d5b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93a0497a.css",
-    "static/js/main.facfaade.js"
+    "static/js/main.3094a09c.js"
   ]
 }
